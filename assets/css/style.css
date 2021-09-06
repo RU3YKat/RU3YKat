@@ -1,6 +1,6 @@
 :root {
   --dark-color: hsla(0, 0%, 0%, 1);
-  --orangebold-color: hsla(18, 100%, 58%, 1);
+  --orangebold-color: hsla(46, 97%, 50%, 1);
   --light-color: hsla(0, 0%, 100%, 1);
   --graylight-color: hsla(0, 0%, 81%, 1);
   --graymedium-color: hsla(0, 0%, 59%, 1);
@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--graylight-color);
 }
 
 body {
@@ -96,7 +97,7 @@ header nav ul li a:hover {
 }
 
 .flex-image img {
-  width: 300px;
+  max-width: 45%;
 }
 
 .flex-item-wide {
@@ -104,14 +105,31 @@ header nav ul li a:hover {
   flex-direction: column;
 }
 
+.projects-background {
+  margin: 0;
+  padding: 0;
+  background-color: var(--orangebold-color);
+}
+
+.projects-background img {
+  flex: 100%;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .projects-container > * {
   display: flex;
   flex-direction: column;
 }
 .box-big {
+  flex: 40%;
 }
 
 .box-small {
+  flex: 30%;
 }
 
 .first-app {
