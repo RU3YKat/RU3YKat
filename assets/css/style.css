@@ -1,0 +1,77 @@
+:root {
+  --dark-color: hsla(0, 0%, 0%, 1);
+  --orangebold-color: hsla(18, 100%, 58%, 1);
+  --light-color: hsla(0, 0%, 100%, 1);
+  --graylight-color: hsla(0, 0%, 81%, 1);
+  --graymedium-color: hsla(0, 0%, 59%, 1);
+  --graydeep-color: hsla(0, 0%, 25%, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ 
+}
+
+header {
+  min-height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 30px;
+  height: fit-content;
+  background-color: var(--graylight-color);
+  background-size: auto 150px;
+  background-attachment: fixed;
+  background-position: top -30px center;
+  background-repeat: repeat-x;
+  background-image: url("../images/reach_down.png");
+  position: sticky;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header h1 {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+  align-items: bottom;
+  padding-bottom: 16px;
+  margin: 0;
+  line-height: 0px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--light-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav {
+  height: auto;
+  display: flex;
+ 
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: bottom;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px 10px;
+  font-weight: lighter;
+  font-size: 1.75vw;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  border-bottom: solid 2px var(--orangebold-color);
+}
