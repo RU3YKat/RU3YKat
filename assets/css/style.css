@@ -14,7 +14,12 @@
 }
 
 body {
- 
+}
+
+.sticky-container {
+  position: sticky;
+  align-items: flex-start;
+  top: 0;
 }
 
 header {
@@ -29,9 +34,14 @@ header {
   background-position: top -30px center;
   background-repeat: repeat-x;
   background-image: url("../images/reach_down.png");
-  position: sticky;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+div .sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
@@ -54,7 +64,6 @@ header a {
 header nav {
   height: auto;
   display: flex;
- 
 }
 
 header nav ul {
@@ -74,4 +83,47 @@ header nav ul li a {
 header nav ul li a:hover {
   text-decoration: none;
   border-bottom: solid 2px var(--orangebold-color);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-image img {
+  width: 300px;
+}
+
+.flex-item-wide {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-container > * {
+  display: flex;
+  flex-direction: column;
+}
+.box-big {
+}
+
+.box-small {
+}
+
+.first-app {
+  display: flex;
+  flex-direction: row;
+}
+
+.other-apps {
+  display: flex;
+  flex-direction: row;
+}
+
+.horiseon .run-buddy .watch-this-space {
+  display: flex;
 }
