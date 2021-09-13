@@ -7,14 +7,13 @@
   --graydeep-color: hsla(0, 0%, 25%, 1);
 }
 
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--graylight-color);
-}
-
-body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .sticky-container {
@@ -59,7 +58,6 @@ header h1 {
 header a {
   text-decoration: none;
   color: var(--light-color);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header nav {
@@ -86,62 +84,50 @@ header nav ul li a:hover {
   border-bottom: solid 2px var(--orangebold-color);
 }
 
-.flex-container {
+.flex-item {
+  margin: 5px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-content: space-between;
 }
 
-.flex-item {
+.details {
   display: flex;
-  flex-wrap: nowrap;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px 15px;
+  width: stretch;
+}
+
+.flex-image {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  max-width: fit-content;
 }
 
 .flex-image img {
-  max-width: 40%;
+  max-width: 714px;
+  height: 500px;
 }
 
-.flex-item-wide {
+.projects {
   display: flex;
-  flex-direction: column;
-}
-
-.projects-background {
-  margin: 0;
-  padding: 0;
-  background-color: var(--orangebold-color);
-}
-
-.projects-background img {
-  flex: 100%;
-  max-width: 100%;
+  flex-direction: row;
   height: auto;
-  background-size: cover;
+  width: 100%;
+  background-image: url("../images/projects-background_enlargefill.png");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-color: hsla(46, 97%, 50%, 1);
 }
 
-.projects-container > * {
+.projects-title {
   display: flex;
-  flex-direction: column;
-}
-.box-big {
-  flex: 40%;
+  padding: 0 auto;
 }
 
-.box-small {
-  flex: 30%;
-}
-
-.first-app {
-  display: flex;
-  flex-direction: row;
-}
-
-.other-apps {
-  display: flex;
-  flex-direction: row;
-}
-
-.horiseon .run-buddy .watch-this-space {
-  display: flex;
+.projects-title h2 {
+  text-align: center;
 }
