@@ -24,4 +24,4 @@ Experienced In:
 
 ## Development
 
-    Kat Redondo (https://github.com/RU3YKat)
+Kat Redondo(https://github.com/RU3YKat)
