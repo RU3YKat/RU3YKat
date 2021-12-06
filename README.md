@@ -1,12 +1,12 @@
 # Kat Redondo
 
-Repository containing Kat's projects
+Full Stack Web Developer
 
 ## Features
 
 ## Screenshot
 
-![my-page - index.html](assets/images/screencapture-ru3ykat-github-io-RU3YKat-2021-10-10-23_44_09.png)
+![my-page - index.html](assets/images/120521SCRNSHT.png)
 
 ## Technologies
 
@@ -15,13 +15,13 @@ Experienced In:
 - html/css
 - javaScript
 - Bootstrap
-- Materialize CSS
-- server-side API
+- Server and Client side API
+- Node.js
+- mySQL(2)
+- Sequelize
+- Express.js
 
-## Github
+## Contact Me
 
-[Github Repository] https://github.com/RU3YKat/
-
-## Development
-
-Kat Redondo(https://github.com/RU3YKat)
+[Kat Redondo on Github](https://github.com/RU3YKat)<br>
+[Email me](mailto:ru3ykat@gmail.com) 
