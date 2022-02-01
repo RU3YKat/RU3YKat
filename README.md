@@ -2,12 +2,6 @@
 
 Full Stack Web Developer
 
-## Features
-
-## Screenshot
-
-![my-page - index.html](assets/images/120521SCRNSHT.png)
-
 ## Technologies
 
 Experienced In:
